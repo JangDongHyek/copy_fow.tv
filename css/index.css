@@ -10,25 +10,130 @@
   padding: 10px;
   border-top: 1px solid;
   border-bottom: 1px solid;
+
 }
 
 .user_search .search_form {
+  width: 330px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 0 14px rgba(229,229,229,1) inset;
 
 }
 
-.user_search #search_text {
-  margin-left: 280px;
+.user_search #search_text{
+  float: left;
+  width: 70%;
   height: 32px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
-.user_search #search_btn {
+.user_search #search_btn{
+  width: 33%;
   margin-left: -13px;
   height: 36px;
   background-color: green;
   border: 1px solid #388c3c;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: white;
 }
+
+/* ************************************************************************* */
+.div_body {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.homemenu {
+height: 30px;
+background-color: orange;
+padding-top: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid  white;
+  border-radius: 4px;
+  padding:5px;
+  text-decoration: none;
+  color: #1c94c4;
+  font-weight: bold
+}
+
+
+.span_btn {
+  color: #1c94c4;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.classification {
+  border-bottom: 1px solid #1c94c4;
+  display: block;
+  height: 55px;
+  margin-left: 15px;
+}
+
+.div_btn {
+  border: 1px solid #1c94c4;
+  background-color: white;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#btn_home {
+
+}
+
+#btn_write {
+  margin-top: 15px;
+}
+
+#btn_back {
+  margin-left: 230px;
+}
+
+#btn_number {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#btn_next {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.class_home {
+  height: 63px;
+  margin-left: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #1c94c4;
+}
+
+.class_menu {
+  border: 1px solid #1c94c4;
+  background-color: white;
+  float: left;
+  width: 16%;
+  text-align: center;
+  height: 25px;
+
+}
+
+/* ************************************************************************ */
