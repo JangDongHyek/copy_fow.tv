@@ -228,3 +228,46 @@ li a {
   font-size: 10pt;
   float: right;
 }
+
+/* ************************************************************ */
+
+.r_side {
+  position: absolute;
+  left: 760px;
+  margin: 0px auto;
+  width: 170px;
+  top: 90px;
+}
+
+.side_btn {
+  text-align: center;
+  width: 150px;
+  padding: 4px;
+  margin: 0 5px 5px 5px;
+}
+
+.side_btn.red {
+  background: #FFEEEE;
+  border: 1px solid #F44;
+}
+
+.side_btn.green {
+  background: #E8FFE0;
+  border: 1px solid #CEA;
+}
+
+.side_btn.blue {
+  background: #E8EFF0;
+  border: 1px solid #CEA;
+}
+
+.side_btn.bejge {
+  background: #F8EFE0;
+  border: 1px solid #CEA;
+}
+
+
+.r_side a {
+  text-decoration: none;
+  color: black;
+}
