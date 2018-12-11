@@ -94,6 +94,7 @@ li a {
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-radius: 5px;
 }
 
 #btn_home {
@@ -133,7 +134,97 @@ li a {
   width: 16%;
   text-align: center;
   height: 25px;
+  border-radius: 5px;
+  margin-right: 2px;
 
 }
 
 /* ************************************************************************ */
+
+#blank {
+  border-bottom: 1px solid #1c94c4;
+}
+
+/* ************************************************************************ */
+
+.content {
+  margin-top: 7px;
+}
+
+.like {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2/5;
+  width: 72px;
+  overflow: hidden;
+  float: left;
+}
+
+#like_hit {
+  text-align: center;
+}
+
+.movie_thumbnail {
+  width: 122px;
+  height: 80px;
+  float: left;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.title .ut {
+  color: #2955BC;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.title .yt {
+  color: #D0D;
+  font-size: 10pt;
+}
+
+.title .wt {
+  color: #77D;
+  font-size: 11px;
+}
+
+.title {
+  display: grid;
+  grid-column: 1;
+  overflow: hidden;
+}
+
+.comment {
+  height: 30px;
+  border-bottom: 1px solid #1c94c4;
+}
+
+.comment .co {
+  border: 1px solid #dddddd;
+  background-color: white;
+  color: #333333;
+  font-size: 10pt;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.comment .re {
+  background: #FDD;
+  padding: 3px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 10pt;
+  float: right;
+  margin-right: 5px;
+}
+
+.comment .cl {
+  background: #DDF;
+  padding: 3px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 10pt;
+  float: right;
+}
