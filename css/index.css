@@ -271,3 +271,72 @@ li a {
   text-decoration: none;
   color: black;
 }
+
+
+/* ************************************************************************  */
+#search_btn:hover {
+  cursor: pointer;
+  background: #45C040
+}
+
+.div_btn {
+  cursor: pointer;
+}
+
+.homemenu a:hover {
+  border: 1px solid #fbcb09;
+  background:#fdf5ce;
+}
+
+.class_menu {
+  cursor: pointer;
+}
+
+.co {
+  cursor: pointer;
+}
+
+#movie {
+  cursor: pointer;
+}
+
+.div_btn:hover {
+  cursor: pointer;
+  border: 1px solid #fbcb09;
+  background:#fdf5ce;
+}
+
+.class_menu:hover {
+  cursor: pointer;
+  border: 1px solid #fbcb09;
+  background:#fdf5ce;
+}
+
+.content:hover {
+  background-color: rgb(254, 237, 219);
+}
+
+.re {
+  cursor: pointer;
+}
+
+#yt {
+  cursor: pointer;
+}
+
+#ut {
+  cursor: pointer;
+}
+
+#like_btn {
+  cursor: pointer;
+}
+
+#dislike_btn:hover {
+  cursor: pointer;
+}
+
+.side_btn:hover{
+  cursor: pointer;
+
+}

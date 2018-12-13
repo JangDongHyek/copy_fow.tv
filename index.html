@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/index.css">
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
+
   </head>
   <body>
 
@@ -146,9 +148,9 @@
           <div class="wrapper">
 
             <div class="like">
-              <img src="img/like.gif" width="72px" height="28px">
+              <img id="like_btn" src="img/like.gif" width="72px" height="28px">
               <span id="like_hit">0</span>
-              <img src="img/dislike.jpg" width="72px" height="28px">
+              <img id="dislike_btn" src="img/dislike.jpg" width="72px" height="28px">
             </div>
 
             <div id="movie">
@@ -158,21 +160,24 @@
         </div>
 
           <div class="title">
-              <span class="ut">제목입니다</span>
-              <span class="yt">유툽제목입니다</span>
+              <span class="ut"><b id="ut">제목입니다</b></span>
+              <span class="yt"><b id="yt">유툽제목입니다</b></span>
               <span class="wt">작성자 시간</span>
 
           </div>
 
           <div class="comment">
-            <span class="co">[ 0 ]개의 댓글</span>
-            <span class="cl">분류</span>
-            <span class="re">신고</span>
+            <span class="co" id="co">[ 0 ]개의 댓글</span>
+            <span class="cl" id="cl">분류</span>
+            <span class="re" id="re">신고</span>
           </div>
 
         </div>
 
       </div>
     </div>
+
+    <script src="js/index.js" >
+    </script>
   </body>
 </html>
